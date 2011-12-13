@@ -159,3 +159,7 @@
 ;; git clone git://github.com/k1LoW/anything-hatena-bookmark.git
 (require 'anything-hatena-bookmark)
 (setq anything-hatena-bookmark-samewindow t)
+
+;; gitのemacsフロントエンド
+;; git clone git://github.com/bogolisk/egg.git
+(require 'egg)
