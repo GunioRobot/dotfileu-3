@@ -49,23 +49,23 @@
 ;; color
 (if window-system (progn
 
-  ;; 文字の色を設定します。
+  ;; 文字の色の設定
   (add-to-list 'default-frame-alist '(foreground-color . "white"))
-  ;; 背景色を設定します。
+  ;; 背景色の設定
   (add-to-list 'default-frame-alist '(background-color . "black"))
-  ;; カーソルの色を設定します。
+  ;; カーソルの色の設定
   (add-to-list 'default-frame-alist '(cursor-color . "white"))
-  ;; マウスポインタの色を設定します。
+  ;; マウスポインタの色の設定
   (add-to-list 'default-frame-alist '(mouse-color . "white"))
-  ;; モードラインの文字の色を設定します。
+  ;; モードラインの文字の色の設定
   (set-face-foreground 'modeline "black")
-  ;; モードラインの背景色を設定します。
+  ;; モードラインの背景色の設定
   (set-face-background 'modeline "white")
-  ;; 選択中のリージョンの色を設定します。
+  ;; 選択中のリージョンの色の設定
   (set-face-background 'region "Blue")
-  ;; モードライン（アクティブでないバッファ）の文字色を設定します。
+  ;; モードライン（アクティブでないバッファ）の文字色の設定
   (set-face-foreground 'mode-line-inactive "black")
-  ;; モードライン（アクティブでないバッファ）の背景色を設定します。
+  ;; モードライン（アクティブでないバッファ）の背景色の設定
   (set-face-background 'mode-line-inactive "white")
 
 ))
