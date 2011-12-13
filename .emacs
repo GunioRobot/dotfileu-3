@@ -154,3 +154,8 @@
 
 ;; migemo
 (load "migemo")
+
+;; anything-hatena-bookmark
+;; git clone git://github.com/k1LoW/anything-hatena-bookmark.git
+(require 'anything-hatena-bookmark)
+(setq anything-hatena-bookmark-samewindow t)
