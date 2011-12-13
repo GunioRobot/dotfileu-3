@@ -126,8 +126,7 @@
   (c-set-offset 'arglist-intro '+)
   (c-set-offset 'arglist-close 0)
   (c-set-offset 'statement-cont 'c-lineup-math)
-  (flymake-mode 1)
-  (langrich-mode 1))
+  (flymake-mode 1))
 
 (add-hook 'php-mode-hook 'php-mode-hook-func)
 
