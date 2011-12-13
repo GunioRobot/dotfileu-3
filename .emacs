@@ -84,6 +84,10 @@
 ;; anything
 (require 'anything-startup)
 
+;; historyf
+;; git clone git://github.com/k1LoW/emacs-historyf.git 
+(require 'historyf)
+
 ;; 対応する括弧を光らせる。
 (show-paren-mode 1)
 
