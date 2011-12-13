@@ -151,3 +151,6 @@
 (setq make-backup-files nil)
 ;; .#* とかのバックアップファイルを作らない
 (setq auto-save-default nil)
+
+;; migemo
+(load "migemo")
