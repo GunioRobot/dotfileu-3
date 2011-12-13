@@ -109,10 +109,12 @@
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;
-;;; php-mode
+;;; php
 ;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+;; php-mode
+;; git clone git://github.com/ejmr/php-mode.git 
 (require 'php-mode)
 
 (defun php-mode-hook-func ()
@@ -131,6 +133,11 @@
 
 (add-to-list 'auto-mode-alist '("\\.ctp\\'" . php-mode))
 
+;; emacs-cake
+;; git clone git://github.com/k1LoW/emacs-cake.git
+(require 'cake)
+(global-cake t)
+(cake-set-default-keymap)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;
